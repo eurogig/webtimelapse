@@ -104,6 +104,11 @@ webtimelapse --url "https://example.com" --shots 10 --interval 300
 python main.py --url "https://example.com" --duration 3600 --interval 120
 ```
 
+**Capture for 1 month every day:**
+```bash
+python main.py --url "https://example.com" ---shots 30 --interval 86400
+```
+
 **Full page capture with custom resolution:**
 ```bash
 python main.py --url "https://example.com" --shots 20 --interval 180 --fullpage --width 1920 --height 1080
